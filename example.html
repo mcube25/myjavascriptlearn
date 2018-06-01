@@ -1,0 +1,26 @@
+<html>
+
+<head></head>
+
+<body>
+    <input id="input1" type="number"><br/>
+    <input id="input2" type="number"><br/>
+    <button onclick="add()">Add</button><button onclick="multiply()">Multiply</button>
+    <script>
+        function add() {
+            var a = parseInt(document.getElementById('input1').value);
+            var b = parseInt(document.getElementById('input2').value);
+            var c = a + b;
+            alert(c);
+        }
+
+        function multiply() {
+            var a = parseInt(document.getElementById('input1').value);
+            var b = parseInt(document.getElementById('input2').value);
+            var c = a * b;
+            alert(c);
+        }
+    </script>
+</body>
+
+</html>
